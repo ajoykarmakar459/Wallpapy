@@ -1,2 +1,0 @@
-# Wallpapy
-Created with CodeSandbox
