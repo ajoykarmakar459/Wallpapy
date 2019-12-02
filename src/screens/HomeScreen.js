@@ -29,6 +29,9 @@ export class HomeScreen extends Component {
   renderItem(item) {
     return (
       <TouchableOpacity
+        onPress={() => {
+          alert("hey");
+        }}
         style={{
           flex: 1 / 2, //here you can use flex:1 also
           aspectRatio: 1,
