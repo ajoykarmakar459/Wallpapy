@@ -4,28 +4,22 @@ import {
   TouchableOpacity,
   SafeAreaView,
   Image,
-  FlatList
+  FlatList,
+  View,
+  ActivityIndicator
 } from "react-native";
 
-const DATA = [
-  {
-    id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
-    title: "First Item"
-  },
-  {
-    id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
-    title: "Second Item"
-  },
-  {
-    id: "58694a0f-3da1-471f-bd96-145571e29d72",
-    title: "Third Item"
-  },
-  {
-    id: "58694a0f-3da1-471f-bd96-145571e29d72",
-    title: "Third Item"
-  }
-];
+const DATA = [];
+
+let API_KEY = "3457782-221199214ff9e6601376d8cce";
+
 export class HomeScreen extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { isLoading: true };
+    this.getphotos();
+  }
+
   renderItem(item) {
     return (
       <TouchableOpacity
@@ -43,8 +37,7 @@ export class HomeScreen extends Component {
           style={{ flex: 1, borderRadius: 4 }}
           resizeMode="cover"
           source={{
-            uri:
-              "https://images.unsplash.com/photo-1558981806-ec527fa84c39?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9"
+            uri: item.webformatURL
           }}
         />
       </TouchableOpacity>
@@ -52,6 +45,13 @@ export class HomeScreen extends Component {
   }
 
   render() {
+    if (this.state.isLoading) {
+      return (
+        <View style={{ flex: 1, padding: 20 }}>
+          <ActivityIndicator />
+        </View>
+      );
+    }
     return (
       <SafeAreaView style={styles.container}>
         <FlatList
@@ -62,6 +62,27 @@ export class HomeScreen extends Component {
         />
       </SafeAreaView>
     );
+  }
+
+  getphotos() {
+    fetch(
+      "https://pixabay.com/api/?key=3457782-221199214ff9e6601376d8cce&q=yellow+flowers&image_type=photo"
+    )
+      .then(response => response.json())
+      .then(responseJson => {
+        this.setState(
+          {
+            isLoading: false
+            // dataSource: responseJson.movies
+          },
+          function() {
+            DATA = responseJson.hits;
+          }
+        );
+      })
+      .catch(error => {
+        console.error(error);
+      });
   }
 }
 
