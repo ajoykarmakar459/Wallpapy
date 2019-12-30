@@ -6,7 +6,11 @@ import {
   Image,
   FlatList,
   View,
-  ActivityIndicator
+  ActivityIndicator,
+  Text,
+  TouchableHighlight,
+  Modal,
+  Alert
 } from "react-native";
 
 const DATA = [
@@ -602,7 +606,10 @@ let API_KEY = "3457782-221199214ff9e6601376d8cce";
 export class HomeScreen extends Component {
   constructor(props) {
     super(props);
-    // this.state = { isLoading: true };
+    this.state = {
+      isLoading: true,
+      modalVisible: false
+    };
     this.getphotos();
   }
 
@@ -610,7 +617,7 @@ export class HomeScreen extends Component {
     return (
       <TouchableOpacity
         onPress={() => {
-          alert("hey");
+          this.setModalVisible(true);
         }}
         style={{
           flex: 1 / 2, //here you can use flex:1 also
@@ -646,6 +653,29 @@ export class HomeScreen extends Component {
           numColumns={2}
           renderItem={({ item }) => this.renderItem(item)}
         />
+
+        <Modal
+          animationType="slide"
+          transparent={false}
+          visible={this.state.modalVisible}
+          onRequestClose={() => {
+            Alert.alert("Modal has been closed.");
+          }}
+        >
+          <View style={{ marginTop: 22 }}>
+            <View>
+              <Text>Hello World!</Text>
+
+              <TouchableHighlight
+                onPress={() => {
+                  this.setModalVisible(!this.state.modalVisible);
+                }}
+              >
+                <Text>Hide Modal</Text>
+              </TouchableHighlight>
+            </View>
+          </View>
+        </Modal>
       </SafeAreaView>
     );
   }
@@ -673,6 +703,10 @@ export class HomeScreen extends Component {
     //   .catch(error => {
     //     console.error(error);
     //   });
+  }
+
+  setModalVisible(visible) {
+    this.setState({ modalVisible: visible });
   }
 }
 
