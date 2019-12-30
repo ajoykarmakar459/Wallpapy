@@ -12,6 +12,7 @@ import {
   Modal,
   Alert
 } from "react-native";
+// import RNFetchBlob from "react-native-fetch-blob";
 
 const DATA = [
   {
@@ -19,582 +20,582 @@ const DATA = [
     hits: [
       {
         largeImageURL:
-          "https://pixabay.com/get/57e7d44b4856a814f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_1280.jpg",
-        webformatHeight: 426,
-        webformatWidth: 640,
-        likes: 1040,
-        imageWidth: 5760,
-        id: 1718244,
-        user_id: 3194556,
-        views: 354458,
-        comments: 115,
-        pageURL:
-          "https://pixabay.com/photos/engagement-couple-romance-bike-1718244/",
-        imageHeight: 3840,
-        webformatURL:
-          "https://pixabay.com/get/57e7d44b4856a814f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_640.jpg",
-        type: "photo",
-        previewHeight: 99,
-        tags: "engagement, couple, romance",
-        downloads: 127084,
-        user: "3194556",
-        favorites: 1036,
-        imageSize: 4669768,
-        previewWidth: 150,
-        userImageURL: "",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2016/10/06/05/19/engagement-1718244_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/57e3d4404956af14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_1280.jpg",
+          "https://pixabay.com/get/57e7d342485bae14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_1280.jpg",
         webformatHeight: 360,
         webformatWidth: 640,
-        likes: 396,
-        imageWidth: 3840,
-        id: 1313343,
-        user_id: 2240009,
-        views: 119700,
-        comments: 40,
-        pageURL:
-          "https://pixabay.com/photos/bmw-vehicle-ride-bike-journey-1313343/",
-        imageHeight: 2160,
-        webformatURL:
-          "https://pixabay.com/get/57e3d4404956af14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_640.jpg",
-        type: "photo",
-        previewHeight: 84,
-        tags: "bmw, vehicle, ride",
-        downloads: 57287,
-        user: "Monoar",
-        favorites: 426,
-        imageSize: 2161055,
-        previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2016/03/18/05-51-03-682_250x250.jpg",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2016/04/07/06/53/bmw-1313343_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/57e9d5474251b108f5d08460962b337b1238d6e74e50744e722972dd9148c1_1280.jpg",
-        webformatHeight: 426,
-        webformatWidth: 640,
-        likes: 334,
-        imageWidth: 2160,
-        id: 190483,
-        user_id: 55851,
-        views: 90730,
-        comments: 38,
-        pageURL:
-          "https://pixabay.com/photos/bike-bicycle-two-wheel-old-bike-190483/",
-        imageHeight: 1440,
-        webformatURL:
-          "https://pixabay.com/get/57e9d5474251b108f5d08460962b337b1238d6e74e50744e722972dd9148c1_640.jpg",
-        type: "photo",
-        previewHeight: 99,
-        tags: "bike, bicycle, two",
-        downloads: 20612,
-        user: "danfador",
-        favorites: 364,
-        imageSize: 2093738,
-        previewWidth: 150,
-        userImageURL: "",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2013/10/03/23/19/bike-190483_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/5fe5d540484fad0bffd8992cc42c32791237dcf85254764e732672d29249_1280.jpg",
-        webformatHeight: 426,
-        webformatWidth: 640,
-        likes: 457,
-        imageWidth: 3888,
-        id: 95032,
+        likes: 1270,
+        imageWidth: 2201,
+        id: 1761292,
         user_id: 12019,
-        views: 162313,
-        comments: 60,
+        views: 376009,
+        comments: 105,
         pageURL:
-          "https://pixabay.com/photos/utah-mountain-biking-bike-biking-95032/",
-        imageHeight: 2592,
+          "https://pixabay.com/photos/scotland-landscape-mountains-hills-1761292/",
+        imageHeight: 1240,
         webformatURL:
-          "https://pixabay.com/get/5fe5d540484fad0bffd8992cc42c32791237dcf85254764e732672d29249_640.jpg",
+          "https://pixabay.com/get/57e7d342485bae14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_640.jpg",
         type: "photo",
-        previewHeight: 99,
-        tags: "utah, mountain biking, bike",
-        downloads: 67159,
+        previewHeight: 84,
+        tags: "scotland, landscape, mountains",
+        downloads: 187340,
         user: "12019",
-        favorites: 489,
-        imageSize: 2324051,
+        favorites: 1203,
+        imageSize: 1143790,
         previewWidth: 150,
         userImageURL: "",
         previewURL:
-          "https://cdn.pixabay.com/photo/2013/03/19/18/23/utah-95032_150.jpg"
+          "https://cdn.pixabay.com/photo/2016/10/22/17/46/scotland-1761292_150.jpg"
       },
       {
         largeImageURL:
-          "https://pixabay.com/get/50e8d6444f53b108f5d08460962b337b1238d6e74e50744e722972dd9148c1_1280.jpg",
-        webformatHeight: 360,
+          "https://pixabay.com/get/57e0d1464357a814f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_1280.jpg",
+        webformatHeight: 425,
         webformatWidth: 640,
-        likes: 343,
-        imageWidth: 2126,
-        id: 683751,
-        user_id: 869884,
-        views: 99237,
-        comments: 40,
+        likes: 1095,
+        imageWidth: 4256,
+        id: 1045954,
+        user_id: 1651179,
+        views: 261897,
+        comments: 144,
         pageURL:
-          "https://pixabay.com/photos/silhouette-bike-fitness-woman-683751/",
-        imageHeight: 1196,
+          "https://pixabay.com/photos/bird-wings-fluttering-nature-1045954/",
+        imageHeight: 2832,
         webformatURL:
-          "https://pixabay.com/get/50e8d6444f53b108f5d08460962b337b1238d6e74e50744e722972dd9148c1_640.jpg",
-        type: "photo",
-        previewHeight: 84,
-        tags: "silhouette, bike, fitness",
-        downloads: 40552,
-        user: "renategranade0",
-        favorites: 359,
-        imageSize: 140956,
-        previewWidth: 150,
-        userImageURL: "",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2015/03/21/14/34/silhouette-683751_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/55e0d1464f5aac14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_1280.jpg",
-        webformatHeight: 456,
-        webformatWidth: 640,
-        likes: 409,
-        imageWidth: 6997,
-        id: 3045580,
-        user_id: 3656355,
-        views: 90655,
-        comments: 45,
-        pageURL:
-          "https://pixabay.com/photos/bicycle-children-graffiti-art-3045580/",
-        imageHeight: 4987,
-        webformatURL:
-          "https://pixabay.com/get/55e0d1464f5aac14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_640.jpg",
-        type: "photo",
-        previewHeight: 106,
-        tags: "bicycle, children, graffiti",
-        downloads: 33099,
-        user: "Engin_Akyurt",
-        favorites: 394,
-        imageSize: 14375889,
-        previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2018/09/20/08-02-23-312_250x250.jpg",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2017/12/28/16/18/bicycle-3045580_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/54e2dc424353aa14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_1280.jpg",
-        webformatHeight: 426,
-        webformatWidth: 640,
-        likes: 260,
-        imageWidth: 6000,
-        id: 2291916,
-        user_id: 661512,
-        views: 98588,
-        comments: 17,
-        pageURL:
-          "https://pixabay.com/photos/gear-bicycle-chain-transmission-2291916/",
-        imageHeight: 4000,
-        webformatURL:
-          "https://pixabay.com/get/54e2dc424353aa14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_640.jpg",
+          "https://pixabay.com/get/57e0d1464357a814f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_640.jpg",
         type: "photo",
         previewHeight: 99,
-        tags: "gear, bicycle, chain",
-        downloads: 72506,
-        user: "JarkkoManty",
-        favorites: 258,
-        imageSize: 8386419,
+        tags: "bird, wings, fluttering",
+        downloads: 107093,
+        user: "homecare119",
+        favorites: 1053,
+        imageSize: 2352295,
         previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2019/08/01/20-23-01-127_250x250.jpg",
+        userImageURL: "",
         previewURL:
-          "https://cdn.pixabay.com/photo/2017/05/07/09/03/gear-2291916_150.jpg"
+          "https://cdn.pixabay.com/photo/2015/11/16/16/28/bird-1045954_150.jpg"
       },
       {
         largeImageURL:
-          "https://pixabay.com/get/57e5d5464a51a514f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_1280.jpg",
-        webformatHeight: 479,
+          "https://pixabay.com/get/55e3d7464a5aac14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_1280.jpg",
+        webformatHeight: 292,
         webformatWidth: 640,
-        likes: 247,
+        likes: 1299,
+        imageWidth: 7070,
+        id: 3325080,
+        user_id: 5357143,
+        views: 575990,
+        comments: 222,
+        pageURL:
+          "https://pixabay.com/photos/sunset-dawn-nature-mountains-3325080/",
+        imageHeight: 3235,
+        webformatURL:
+          "https://pixabay.com/get/55e3d7464a5aac14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_640.jpg",
+        type: "photo",
+        previewHeight: 68,
+        tags: "sunset, dawn, nature",
+        downloads: 455963,
+        user: "kareni",
+        favorites: 1082,
+        imageSize: 4567944,
+        previewWidth: 150,
+        userImageURL:
+          "https://cdn.pixabay.com/user/2017/05/13/17-56-05-987_250x250.jpg",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2018/04/16/16/16/sunset-3325080_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/57e2d5464c51ad14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_1280.jpg",
+        webformatHeight: 426,
+        webformatWidth: 640,
+        likes: 1303,
+        imageWidth: 5184,
+        id: 1205631,
+        user_id: 1785462,
+        views: 392975,
+        comments: 158,
+        pageURL:
+          "https://pixabay.com/photos/lotus-natural-water-meditation-zen-1205631/",
+        imageHeight: 3456,
+        webformatURL:
+          "https://pixabay.com/get/57e2d5464c51ad14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_640.jpg",
+        type: "photo",
+        previewHeight: 99,
+        tags: "lotus, natural, water",
+        downloads: 176806,
+        user: "Devanath",
+        favorites: 1221,
+        imageSize: 4776299,
+        previewWidth: 150,
+        userImageURL:
+          "https://cdn.pixabay.com/user/2016/09/02/10-09-22-263_250x250.png",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2016/02/17/19/08/lotus-1205631_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/55e6dc4b4a55af14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_1280.jpg",
+        webformatHeight: 352,
+        webformatWidth: 640,
+        likes: 1398,
         imageWidth: 4000,
-        id: 1505039,
-        user_id: 2849478,
-        views: 50708,
-        comments: 18,
+        id: 3698073,
+        user_id: 1962238,
+        views: 519102,
+        comments: 224,
         pageURL:
-          "https://pixabay.com/photos/bike-wall-phu-xuyen-hanoi-vietnam-1505039/",
-        imageHeight: 2996,
+          "https://pixabay.com/photos/drop-splash-drip-water-liquid-wet-3698073/",
+        imageHeight: 2200,
         webformatURL:
-          "https://pixabay.com/get/57e5d5464a51a514f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_640.jpg",
+          "https://pixabay.com/get/55e6dc4b4a55af14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_640.jpg",
         type: "photo",
-        previewHeight: 112,
-        tags: "bike, wall, phu xuyen",
-        downloads: 23814,
-        user: "nguyenhuynhmai",
-        favorites: 253,
-        imageSize: 5013108,
+        previewHeight: 82,
+        tags: "drop, splash, drip",
+        downloads: 369575,
+        user: "qimono",
+        favorites: 932,
+        imageSize: 3513975,
         previewWidth: 150,
         userImageURL:
-          "https://cdn.pixabay.com/user/2016/07/01/14-17-57-875_250x250.jpg",
+          "https://cdn.pixabay.com/user/2016/03/14/20-43-09-565_250x250.png",
         previewURL:
-          "https://cdn.pixabay.com/photo/2016/07/08/18/32/bike-1505039_150.jpg"
+          "https://cdn.pixabay.com/photo/2018/09/23/18/30/drop-3698073_150.jpg"
       },
       {
         largeImageURL:
-          "https://pixabay.com/get/51e4d44b4b51b108f5d08460962b337b1238d6e74e50744e722972dd9148c1_1280.jpg",
-        webformatHeight: 426,
+          "https://pixabay.com/get/57e6d6464b5ab108f5d08460962b337b1238d6e74e50744e72287bd4934dc4_1280.jpg",
+        webformatHeight: 413,
         webformatWidth: 640,
-        likes: 244,
-        imageWidth: 1940,
-        id: 741813,
-        user_id: 824135,
-        views: 55012,
-        comments: 30,
+        likes: 1411,
+        imageWidth: 1920,
+        id: 163518,
+        user_id: 1107275,
+        views: 388758,
+        comments: 163,
         pageURL:
-          "https://pixabay.com/photos/sign-bicycle-decoration-bike-741813/",
-        imageHeight: 1293,
+          "https://pixabay.com/photos/railroad-tracks-tracks-railway-163518/",
+        imageHeight: 1241,
         webformatURL:
-          "https://pixabay.com/get/51e4d44b4b51b108f5d08460962b337b1238d6e74e50744e722972dd9148c1_640.jpg",
+          "https://pixabay.com/get/57e6d6464b5ab108f5d08460962b337b1238d6e74e50744e72287bd4934dc4_640.jpg",
         type: "photo",
-        previewHeight: 99,
-        tags: "sign, bicycle, decoration",
-        downloads: 24290,
-        user: "BriF",
-        favorites: 268,
-        imageSize: 422018,
+        previewHeight: 96,
+        tags: "railroad tracks, tracks, railway",
+        downloads: 182629,
+        user: "Larisa-K",
+        favorites: 1310,
+        imageSize: 638366,
         previewWidth: 150,
         userImageURL:
-          "https://cdn.pixabay.com/user/2015/03/10/13-40-13-674_250x250.jpg",
+          "https://cdn.pixabay.com/user/2015/06/13/06-38-56-116_250x250.jpg",
         previewURL:
-          "https://cdn.pixabay.com/photo/2015/04/27/11/48/sign-741813_150.jpg"
+          "https://cdn.pixabay.com/photo/2013/07/18/10/56/railroad-tracks-163518_150.jpg"
       },
       {
         largeImageURL:
-          "https://pixabay.com/get/55e8d1424d5ab108f5d08460962b337b1238d6e74e50744e722972dd9148c1_1280.jpg",
-        webformatHeight: 167,
+          "https://pixabay.com/get/57e9dc404c56a914f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_1280.jpg",
+        webformatHeight: 368,
         webformatWidth: 640,
-        likes: 232,
-        imageWidth: 4272,
-        id: 384178,
-        user_id: 322038,
-        views: 64589,
-        comments: 47,
+        likes: 1113,
+        imageWidth: 2200,
+        id: 1993645,
+        user_id: 12019,
+        views: 334299,
+        comments: 91,
         pageURL:
-          "https://pixabay.com/photos/biker-motorcycle-dirt-extreme-bike-384178/",
-        imageHeight: 1120,
+          "https://pixabay.com/photos/panorama-bled-island-slovenia-1993645/",
+        imageHeight: 1268,
         webformatURL:
-          "https://pixabay.com/get/55e8d1424d5ab108f5d08460962b337b1238d6e74e50744e722972dd9148c1_640.jpg",
+          "https://pixabay.com/get/57e9dc404c56a914f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_640.jpg",
         type: "photo",
-        previewHeight: 39,
-        tags: "biker, motorcycle, dirt",
-        downloads: 32147,
-        user: "WebDonut",
-        favorites: 275,
-        imageSize: 702799,
+        previewHeight: 86,
+        tags: "panorama, bled, island",
+        downloads: 205024,
+        user: "12019",
+        favorites: 1241,
+        imageSize: 323699,
         previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2015/09/25/17-21-20-903_250x250.jpg",
+        userImageURL: "",
         previewURL:
-          "https://cdn.pixabay.com/photo/2014/07/04/19/15/biker-384178_150.jpg"
+          "https://cdn.pixabay.com/photo/2017/01/19/23/46/panorama-1993645_150.jpg"
       },
       {
         largeImageURL:
-          "https://pixabay.com/get/54e7d4424855a514f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_1280.jpg",
-        webformatHeight: 374,
+          "https://pixabay.com/get/57e2dd474f53ae14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_1280.jpg",
+        webformatHeight: 400,
         webformatWidth: 640,
-        likes: 448,
-        imageWidth: 3318,
-        id: 2711279,
-        user_id: 127419,
-        views: 175999,
-        comments: 83,
-        pageURL:
-          "https://pixabay.com/photos/woman-girl-bike-sunset-walk-2711279/",
-        imageHeight: 1943,
-        webformatURL:
-          "https://pixabay.com/get/54e7d4424855a514f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_640.jpg",
-        type: "photo",
-        previewHeight: 87,
-        tags: "woman, girl, bike",
-        downloads: 122529,
-        user: "cocoparisienne",
-        favorites: 410,
-        imageSize: 780460,
-        previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2019/11/18/14-25-26-732_250x250.jpg",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2017/09/03/17/26/woman-2711279_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/57e9d5454e52a914f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_1280.jpg",
-        webformatHeight: 451,
-        webformatWidth: 640,
-        likes: 177,
-        imageWidth: 5984,
-        id: 1906405,
-        user_id: 3946012,
-        views: 89982,
-        comments: 10,
-        pageURL:
-          "https://pixabay.com/photos/girl-bicycle-bike-cycling-sunset-1906405/",
-        imageHeight: 4224,
-        webformatURL:
-          "https://pixabay.com/get/57e9d5454e52a914f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_640.jpg",
-        type: "photo",
-        previewHeight: 105,
-        tags: "girl, bicycle, bike",
-        downloads: 61271,
-        user: "zhivko",
-        favorites: 233,
-        imageSize: 2969341,
-        previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2016/12/07/09-20-37-961_250x250.jpg",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2016/12/14/13/33/girl-1906405_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/57e0dd414a57ab14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_1280.jpg",
-        webformatHeight: 426,
-        webformatWidth: 640,
-        likes: 146,
-        imageWidth: 1800,
-        id: 1082057,
-        user_id: 242387,
-        views: 25084,
-        comments: 2,
-        pageURL:
-          "https://pixabay.com/photos/vintage-bike-flowers-bicycle-retro-1082057/",
-        imageHeight: 1200,
-        webformatURL:
-          "https://pixabay.com/get/57e0dd414a57ab14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_640.jpg",
-        type: "photo",
-        previewHeight: 99,
-        tags: "vintage, bike, flowers",
-        downloads: 7824,
-        user: "Free-Photos",
-        favorites: 220,
-        imageSize: 605710,
-        previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2014/05/07/00-10-34-2_250x250.jpg",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2015/12/08/00/48/vintage-1082057_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/55e0d3454b54ab14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_1280.jpg",
-        webformatHeight: 359,
-        webformatWidth: 640,
-        likes: 145,
-        imageWidth: 5684,
-        id: 3066167,
-        user_id: 165106,
-        views: 37944,
-        comments: 49,
-        pageURL:
-          "https://pixabay.com/photos/snow-fatbikes-mountain-bikes-mtb-3066167/",
-        imageHeight: 3194,
-        webformatURL:
-          "https://pixabay.com/get/55e0d3454b54ab14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_640.jpg",
-        type: "photo",
-        previewHeight: 84,
-        tags: "snow, fatbikes, mountain bikes",
-        downloads: 20952,
-        user: "suju",
-        favorites: 126,
-        imageSize: 5200534,
-        previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2019/09/21/15-48-10-210_250x250.jpeg",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2018/01/06/23/25/snow-3066167_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/57e8d3444a56aa14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_1280.jpg",
-        webformatHeight: 426,
-        webformatWidth: 640,
-        likes: 156,
-        imageWidth: 5315,
-        id: 1867046,
+        likes: 1105,
+        imageWidth: 3840,
+        id: 1284512,
         user_id: 2286921,
-        views: 27893,
-        comments: 11,
+        views: 330211,
+        comments: 77,
         pageURL:
-          "https://pixabay.com/photos/bicycle-bike-cyclist-dawn-dusk-1867046/",
-        imageHeight: 3543,
+          "https://pixabay.com/photos/fox-sleeping-resting-relaxing-red-1284512/",
+        imageHeight: 2400,
         webformatURL:
-          "https://pixabay.com/get/57e8d3444a56aa14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_640.jpg",
+          "https://pixabay.com/get/57e2dd474f53ae14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_640.jpg",
         type: "photo",
-        previewHeight: 99,
-        tags: "bicycle, bike, cyclist",
-        downloads: 13562,
+        previewHeight: 93,
+        tags: "fox, sleeping, resting",
+        downloads: 216513,
         user: "Pexels",
-        favorites: 205,
-        imageSize: 2162993,
+        favorites: 1130,
+        imageSize: 1811710,
         previewWidth: 150,
         userImageURL:
           "https://cdn.pixabay.com/user/2016/03/26/22-06-36-459_250x250.jpg",
         previewURL:
-          "https://cdn.pixabay.com/photo/2016/11/29/03/25/bicycle-1867046_150.jpg"
+          "https://cdn.pixabay.com/photo/2016/03/27/22/22/fox-1284512_150.jpg"
       },
       {
         largeImageURL:
-          "https://pixabay.com/get/52e0d2424254b108f5d08460962b337b1238d6e74e50744e722972dd9148c1_1280.jpg",
+          "https://pixabay.com/get/55e0d4434256a414f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_1280.jpg",
+        webformatHeight: 457,
+        webformatWidth: 640,
+        likes: 1271,
+        imageWidth: 2051,
+        id: 3010848,
+        user_id: 443272,
+        views: 604114,
+        comments: 159,
+        pageURL:
+          "https://pixabay.com/photos/feather-ease-slightly-blue-airy-3010848/",
+        imageHeight: 1465,
+        webformatURL:
+          "https://pixabay.com/get/55e0d4434256a414f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_640.jpg",
+        type: "photo",
+        previewHeight: 107,
+        tags: "feather, ease, slightly",
+        downloads: 465127,
+        user: "Sponchia",
+        favorites: 1339,
+        imageSize: 601648,
+        previewWidth: 150,
+        userImageURL:
+          "https://cdn.pixabay.com/user/2017/10/12/20-30-21-88_250x250.jpg",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2017/12/10/20/56/feather-3010848_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/57e6d7434e56ac14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_1280.jpg",
         webformatHeight: 426,
         webformatWidth: 640,
-        likes: 221,
-        imageWidth: 5616,
-        id: 407186,
-        user_id: 364019,
-        views: 83268,
-        comments: 25,
+        likes: 1159,
+        imageWidth: 3000,
+        id: 1620440,
+        user_id: 3108740,
+        views: 317161,
+        comments: 114,
         pageURL:
-          "https://pixabay.com/photos/motorbike-garage-repairs-hobby-407186/",
-        imageHeight: 3744,
+          "https://pixabay.com/photos/mill-black-forest-bach-water-1620440/",
+        imageHeight: 2000,
         webformatURL:
-          "https://pixabay.com/get/52e0d2424254b108f5d08460962b337b1238d6e74e50744e722972dd9148c1_640.jpg",
+          "https://pixabay.com/get/57e6d7434e56ac14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_640.jpg",
         type: "photo",
         previewHeight: 99,
-        tags: "motorbike, garage, repairs",
-        downloads: 28904,
+        tags: "mill, black forest, bach",
+        downloads: 176038,
+        user: "hschmider",
+        favorites: 1108,
+        imageSize: 2889274,
+        previewWidth: 150,
+        userImageURL:
+          "https://cdn.pixabay.com/user/2016/08/18/19-31-01-69_250x250.jpg",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2016/08/25/19/10/mill-1620440_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/55e4d1434e57ac14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_1280.jpg",
+        webformatHeight: 360,
+        webformatWidth: 640,
+        likes: 1213,
+        imageWidth: 5456,
+        id: 3440450,
+        user_id: 7645255,
+        views: 573243,
+        comments: 146,
+        pageURL:
+          "https://pixabay.com/photos/thunderstorm-ocean-twilight-clouds-3440450/",
+        imageHeight: 3069,
+        webformatURL:
+          "https://pixabay.com/get/55e4d1434e57ac14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_640.jpg",
+        type: "photo",
+        previewHeight: 84,
+        tags: "thunderstorm, ocean, twilight",
+        downloads: 496016,
+        user: "jplenio",
+        favorites: 1081,
+        imageSize: 2696246,
+        previewWidth: 150,
+        userImageURL:
+          "https://cdn.pixabay.com/user/2019/09/21/19-16-31-938_250x250.jpg",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2018/05/30/00/24/thunderstorm-3440450_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/52e0d2414f50b108f5d08460962b337b1238d6e74e50744e72287bd4934dc4_1280.jpg",
+        webformatHeight: 426,
+        webformatWidth: 640,
+        likes: 1144,
+        imageWidth: 5184,
+        id: 407252,
+        user_id: 364019,
+        views: 394902,
+        comments: 124,
+        pageURL:
+          "https://pixabay.com/photos/pier-wooden-lake-ocean-sea-quiet-407252/",
+        imageHeight: 3456,
+        webformatURL:
+          "https://pixabay.com/get/52e0d2414f50b108f5d08460962b337b1238d6e74e50744e72287bd4934dc4_640.jpg",
+        type: "photo",
+        previewHeight: 99,
+        tags: "pier, wooden, lake",
+        downloads: 222341,
         user: "SplitShire",
-        favorites: 202,
-        imageSize: 7362369,
+        favorites: 1337,
+        imageSize: 5014567,
         previewWidth: 150,
         userImageURL:
           "https://cdn.pixabay.com/user/2014/08/01/01-11-54-28_250x250.jpg",
         previewURL:
-          "https://cdn.pixabay.com/photo/2014/07/31/23/37/motorbike-407186_150.jpg"
+          "https://cdn.pixabay.com/photo/2014/08/01/00/08/pier-407252_150.jpg"
       },
       {
         largeImageURL:
-          "https://pixabay.com/get/5ee6d241485bb108f5d08460962b337b1238d6e74e50744e722972dd9148c1_1280.jpg",
+          "https://pixabay.com/get/54e5d6474e5aa814f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_1280.jpg",
+        webformatHeight: 170,
+        webformatWidth: 640,
+        likes: 1118,
+        imageWidth: 6750,
+        id: 2534484,
+        user_id: 2707530,
+        views: 360967,
+        comments: 186,
+        pageURL:
+          "https://pixabay.com/photos/schrecksee-bergsee-allg%C3%A4u-2534484/",
+        imageHeight: 1800,
+        webformatURL:
+          "https://pixabay.com/get/54e5d6474e5aa814f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_640.jpg",
+        type: "photo",
+        previewHeight: 40,
+        tags: "schrecksee, bergsee, allgäu",
+        downloads: 237957,
+        user: "PIRO4D",
+        favorites: 1024,
+        imageSize: 4122284,
+        previewWidth: 150,
+        userImageURL:
+          "https://cdn.pixabay.com/user/2019/08/12/15-51-03-907_250x250.jpg",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2017/07/24/12/43/schrecksee-2534484_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/54e3d3424856ab14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_1280.jpg",
         webformatHeight: 480,
         webformatWidth: 640,
-        likes: 108,
-        imageWidth: 2560,
-        id: 867229,
-        user_id: 242387,
-        views: 31531,
-        comments: 19,
+        likes: 1005,
+        imageWidth: 2000,
+        id: 2361247,
+        user_id: 12019,
+        views: 374193,
+        comments: 63,
         pageURL:
-          "https://pixabay.com/photos/bike-cycle-bicycle-sport-cycling-867229/",
-        imageHeight: 1920,
+          "https://pixabay.com/photos/sea-turtle-diving-animal-ocean-2361247/",
+        imageHeight: 1500,
         webformatURL:
-          "https://pixabay.com/get/5ee6d241485bb108f5d08460962b337b1238d6e74e50744e722972dd9148c1_640.jpg",
+          "https://pixabay.com/get/54e3d3424856ab14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_640.jpg",
         type: "photo",
         previewHeight: 112,
-        tags: "bike, cycle, bicycle",
-        downloads: 15887,
-        user: "Free-Photos",
-        favorites: 252,
-        imageSize: 841744,
+        tags: "sea, turtle, diving",
+        downloads: 272944,
+        user: "12019",
+        favorites: 1180,
+        imageSize: 1157423,
         previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2014/05/07/00-10-34-2_250x250.jpg",
+        userImageURL: "",
         previewURL:
-          "https://cdn.pixabay.com/photo/2015/07/30/11/04/bike-867229_150.jpg"
+          "https://cdn.pixabay.com/photo/2017/05/31/18/38/sea-2361247_150.jpg"
       },
       {
         largeImageURL:
-          "https://pixabay.com/get/55e3d3464a57b108f5d08460962b337b1238d6e74e50744e722972dd9148c1_1280.jpg",
-        webformatHeight: 425,
+          "https://pixabay.com/get/57e1dc444d57af14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_1280.jpg",
+        webformatHeight: 426,
         webformatWidth: 640,
-        likes: 137,
-        imageWidth: 4912,
-        id: 336505,
-        user_id: 242387,
-        views: 27745,
-        comments: 16,
+        likes: 1088,
+        imageWidth: 5760,
+        id: 1197753,
+        user_id: 2019050,
+        views: 325692,
+        comments: 108,
         pageURL:
-          "https://pixabay.com/photos/shed-bicycle-bike-old-wooden-shack-336505/",
-        imageHeight: 3264,
+          "https://pixabay.com/photos/aurora-polar-lights-northen-lights-1197753/",
+        imageHeight: 3840,
         webformatURL:
-          "https://pixabay.com/get/55e3d3464a57b108f5d08460962b337b1238d6e74e50744e722972dd9148c1_640.jpg",
+          "https://pixabay.com/get/57e1dc444d57af14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_640.jpg",
         type: "photo",
         previewHeight: 99,
-        tags: "shed, bicycle, bike",
-        downloads: 11913,
-        user: "Free-Photos",
-        favorites: 206,
-        imageSize: 5918588,
+        tags: "aurora, polar lights, northen lights",
+        downloads: 202384,
+        user: "Noel_Bauza",
+        favorites: 1187,
+        imageSize: 7403692,
         previewWidth: 150,
         userImageURL:
-          "https://cdn.pixabay.com/user/2014/05/07/00-10-34-2_250x250.jpg",
+          "https://cdn.pixabay.com/user/2016/02/07/19-28-24-618_250x250.jpg",
         previewURL:
-          "https://cdn.pixabay.com/photo/2014/05/02/23/53/shed-336505_150.jpg"
+          "https://cdn.pixabay.com/photo/2016/02/13/12/26/aurora-1197753_150.jpg"
       },
       {
         largeImageURL:
-          "https://pixabay.com/get/57e8d64a4a52a914f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_1280.jpg",
-        webformatHeight: 400,
+          "https://pixabay.com/get/53e7d44a4e52b108f5d08460962b337b1238d6e74e50744e72287bd4934dc4_1280.jpg",
+        webformatHeight: 283,
         webformatWidth: 640,
-        likes: 109,
+        likes: 1561,
+        imageWidth: 3531,
+        id: 571940,
+        user_id: 512893,
+        views: 680101,
+        comments: 292,
+        pageURL:
+          "https://pixabay.com/photos/wild-flowers-flowers-plant-macro-571940/",
+        imageHeight: 1562,
+        webformatURL:
+          "https://pixabay.com/get/53e7d44a4e52b108f5d08460962b337b1238d6e74e50744e72287bd4934dc4_640.jpg",
+        type: "photo",
+        previewHeight: 66,
+        tags: "wild flowers, flowers, plant",
+        downloads: 218539,
+        user: "DreamyArt",
+        favorites: 1419,
+        imageSize: 1000313,
+        previewWidth: 150,
+        userImageURL:
+          "https://cdn.pixabay.com/user/2019/10/17/19-39-45-771_250x250.jpg",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2014/12/17/21/30/wild-flowers-571940_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/54e1dc4a4d50b108f5d08460962b337b1238d6e74e50744e72287bd4934dc4_1280.jpg",
+        webformatHeight: 410,
+        webformatWidth: 640,
+        likes: 1219,
         imageWidth: 1920,
-        id: 1839005,
-        user_id: 2286921,
-        views: 30853,
-        comments: 4,
+        id: 219972,
+        user_id: 1107275,
+        views: 310150,
+        comments: 142,
         pageURL:
-          "https://pixabay.com/photos/bicycle-bike-bokeh-lights-macro-1839005/",
-        imageHeight: 1200,
+          "https://pixabay.com/photos/autumn-landscape-nature-golden-219972/",
+        imageHeight: 1232,
         webformatURL:
-          "https://pixabay.com/get/57e8d64a4a52a914f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_640.jpg",
+          "https://pixabay.com/get/54e1dc4a4d50b108f5d08460962b337b1238d6e74e50744e72287bd4934dc4_640.jpg",
         type: "photo",
-        previewHeight: 93,
-        tags: "bicycle, bike, bokeh",
-        downloads: 13523,
-        user: "Pexels",
-        favorites: 141,
-        imageSize: 927893,
+        previewHeight: 96,
+        tags: "autumn, landscape, nature",
+        downloads: 121451,
+        user: "Larisa-K",
+        favorites: 1060,
+        imageSize: 518928,
         previewWidth: 150,
         userImageURL:
-          "https://cdn.pixabay.com/user/2016/03/26/22-06-36-459_250x250.jpg",
+          "https://cdn.pixabay.com/user/2015/06/13/06-38-56-116_250x250.jpg",
         previewURL:
-          "https://cdn.pixabay.com/photo/2016/11/19/12/24/bicycle-1839005_150.jpg"
+          "https://cdn.pixabay.com/photo/2013/11/28/10/03/autumn-219972_150.jpg"
       },
       {
         largeImageURL:
-          "https://pixabay.com/get/51e1d6454f5ab108f5d08460962b337b1238d6e74e50744e722972dd9148c1_1280.jpg",
-        webformatHeight: 425,
+          "https://pixabay.com/get/57e9d647425bab14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_1280.jpg",
+        webformatHeight: 433,
         webformatWidth: 640,
-        likes: 105,
-        imageWidth: 4256,
-        id: 713658,
-        user_id: 272447,
-        views: 40097,
-        comments: 14,
+        likes: 1073,
+        imageWidth: 4769,
+        id: 1934897,
+        user_id: 4127310,
+        views: 347200,
+        comments: 109,
         pageURL:
-          "https://pixabay.com/photos/workout-racing-bike-bicycle-bike-713658/",
-        imageHeight: 2832,
+          "https://pixabay.com/photos/lone-tree-tree-oak-clouds-1934897/",
+        imageHeight: 3231,
         webformatURL:
-          "https://pixabay.com/get/51e1d6454f5ab108f5d08460962b337b1238d6e74e50744e722972dd9148c1_640.jpg",
+          "https://pixabay.com/get/57e9d647425bab14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_640.jpg",
         type: "photo",
-        previewHeight: 99,
-        tags: "workout, racing bike, bicycle",
-        downloads: 19528,
-        user: "skeeze",
-        favorites: 145,
-        imageSize: 401267,
+        previewHeight: 101,
+        tags: "lone tree, tree, oak",
+        downloads: 173011,
+        user: "mbll",
+        favorites: 947,
+        imageSize: 4158886,
         previewWidth: 150,
         userImageURL:
-          "https://cdn.pixabay.com/user/2015/02/10/03-58-30-79_250x250.jpg",
+          "https://cdn.pixabay.com/user/2016/12/31/16-40-55-926_250x250.jpg",
         previewURL:
-          "https://cdn.pixabay.com/photo/2015/04/08/23/53/workout-713658_150.jpg"
+          "https://cdn.pixabay.com/photo/2016/12/27/21/03/lone-tree-1934897_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/57e7d1434355af14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_1280.jpg",
+        webformatHeight: 360,
+        webformatWidth: 640,
+        likes: 950,
+        imageWidth: 3568,
+        id: 1740973,
+        user_id: 1006510,
+        views: 221288,
+        comments: 76,
+        pageURL:
+          "https://pixabay.com/photos/canyon-mountains-deep-gorge-rocks-1740973/",
+        imageHeight: 2007,
+        webformatURL:
+          "https://pixabay.com/get/57e7d1434355af14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_640.jpg",
+        type: "photo",
+        previewHeight: 84,
+        tags: "canyon, mountains, deep",
+        downloads: 134200,
+        user: "Andy_Bay",
+        favorites: 937,
+        imageSize: 1644141,
+        previewWidth: 150,
+        userImageURL:
+          "https://cdn.pixabay.com/user/2016/06/04/18-07-59-806_250x250.jpg",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2016/10/14/19/21/canyon-1740973_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/55e0d7474d55af14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_1280.jpg",
+        webformatHeight: 426,
+        webformatWidth: 640,
+        likes: 1022,
+        imageWidth: 6000,
+        id: 3024773,
+        user_id: 1032521,
+        views: 573541,
+        comments: 94,
+        pageURL:
+          "https://pixabay.com/photos/away-bridge-wood-nature-railing-3024773/",
+        imageHeight: 4000,
+        webformatURL:
+          "https://pixabay.com/get/55e0d7474d55af14f6da8c7dda79347a1038d9ed514c704c72287cd49749c559_640.jpg",
+        type: "photo",
+        previewHeight: 99,
+        tags: "away, bridge, wood",
+        downloads: 435051,
+        user: "Tama66",
+        favorites: 970,
+        imageSize: 7983114,
+        previewWidth: 150,
+        userImageURL:
+          "https://cdn.pixabay.com/user/2019/12/21/18-41-09-325_250x250.jpg",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2017/12/17/19/08/away-3024773_150.jpg"
       }
     ],
-    total: 4260
+    total: 301338
   }
 ];
 
@@ -618,7 +619,6 @@ export class HomeScreen extends Component {
         onPress={() => {
           this.setModalVisible(true);
           this.modaldata = item;
-          console.log(this.modaldata);
         }}
         style={{
           flex: 1 / 2, //here you can use flex:1 also
@@ -634,6 +634,10 @@ export class HomeScreen extends Component {
             uri: item.webformatURL
           }}
         />
+        <View style={styles.imgdetails}>
+          <Text style={styles.imgdetailsTxt}>Views: {item.views}</Text>
+          <Text style={styles.imgdetailsTxt}>Downloads: {item.downloads}</Text>
+        </View>
       </TouchableOpacity>
     );
   }
@@ -682,7 +686,7 @@ export class HomeScreen extends Component {
               <TouchableHighlight
                 style={styles.childbtn}
                 onPress={() => {
-                  this.setModalVisible(!this.state.modalVisible);
+                  this.download();
                 }}
               >
                 <Text>Downlaod</Text>
@@ -731,6 +735,25 @@ export class HomeScreen extends Component {
     console.log("state", this.state.modalVisible);
     this.setState({ modalVisible: visible, hightResImgLoad: false });
   }
+
+  download() {
+    // RNFetchBlob.config({
+    //   addAndroidDownloads: {
+    //     useDownloadManager: true, // <-- this is the only thing required
+    //     // Optional, override notification setting (default to true)
+    //     notification: true,
+    //     // Optional, but recommended since android DownloadManager will fail when
+    //     // the url does not contains a file extension, by default the mime type will be text/plain
+    //     mime: "text/plain",
+    //     description: "File downloaded by download manager."
+    //   }
+    // })
+    //   .fetch("GET", "http://example.com/file/somefile")
+    //   .then(resp => {
+    //     // the path of downloaded file
+    //     resp.path();
+    //   });
+  }
 }
 
 const styles = StyleSheet.create({
@@ -748,6 +771,20 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 32
+  },
+  imgdetails: {
+    position: "absolute",
+    bottom: 4,
+    left: 4,
+    right: 4,
+    padding: 8,
+    backgroundColor: "rgba(0, 0, 0, 0.4)",
+    borderRadius: 4
+  },
+  imgdetailsTxt: {
+    color: "white",
+    marginBottom: 4,
+    fontSize: 13
   },
   loader: {
     width: "100%",
