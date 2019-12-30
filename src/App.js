@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Button, Image, StyleSheet, Text, View } from "react-native";
-import {HomeScreen} from "./screens/HomeScreen"
+import {HomeScreen} from "./screens/HomeScreen";
 
 class App extends Component {
   render() {
     return (
-     <HomeScreen></HomeScreen>
+   <HomeScreen></HomeScreen>
     );
   }
 }
