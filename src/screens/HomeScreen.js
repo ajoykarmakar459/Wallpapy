@@ -19,584 +19,582 @@ const DATA = [
     hits: [
       {
         largeImageURL:
-          "https://pixabay.com/get/55e2d54b4c5ab108f5d08460962b337b1238d6e74e50744e722972dc934cc2_1280.jpg",
-        webformatHeight: 495,
-        webformatWidth: 640,
-        likes: 822,
-        imageWidth: 5168,
-        id: 320868,
-        user_id: 48777,
-        views: 671399,
-        comments: 97,
-        pageURL:
-          "https://pixabay.com/photos/red-rose-rose-rose-bloom-blossom-320868/",
-        imageHeight: 4000,
-        webformatURL:
-          "https://pixabay.com/get/55e2d54b4c5ab108f5d08460962b337b1238d6e74e50744e722972dc934cc2_640.jpg",
-        type: "photo",
-        previewHeight: 116,
-        tags: "red rose, rose, rose bloom",
-        downloads: 79439,
-        user: "Josch13",
-        favorites: 751,
-        imageSize: 1677648,
-        previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2013/11/05/02-10-23-764_250x250.jpg",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2014/04/10/11/24/red-rose-320868_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/57e0d5414c51b108f5d08460962b337b1238d6e74e50744e722972dc934cc2_1280.jpg",
-        webformatHeight: 398,
-        webformatWidth: 640,
-        likes: 971,
-        imageWidth: 3774,
-        id: 100263,
-        user_id: 23566,
-        views: 208402,
-        comments: 100,
-        pageURL: "https://pixabay.com/photos/cereals-field-ripe-poppy-100263/",
-        imageHeight: 2350,
-        webformatURL:
-          "https://pixabay.com/get/57e0d5414c51b108f5d08460962b337b1238d6e74e50744e722972dc934cc2_640.jpg",
-        type: "photo",
-        previewHeight: 93,
-        tags: "cereals, field, ripe",
-        downloads: 70998,
-        user: "realworkhard",
-        favorites: 812,
-        imageSize: 1175477,
-        previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2013/10/03/21-10-36-920_250x250.jpg",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2013/04/03/21/25/cereals-100263_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/55e7d1404b5ab108f5d08460962b337b1238d6e74e50744e722972dc934cc2_1280.jpg",
+          "https://pixabay.com/get/57e7d44b4856a814f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_1280.jpg",
         webformatHeight: 426,
         webformatWidth: 640,
-        likes: 737,
-        imageWidth: 3072,
-        id: 374318,
-        user_id: 266366,
-        views: 380104,
-        comments: 123,
+        likes: 1040,
+        imageWidth: 5760,
+        id: 1718244,
+        user_id: 3194556,
+        views: 354458,
+        comments: 115,
         pageURL:
-          "https://pixabay.com/photos/rose-roses-flowers-red-valentine-374318/",
-        imageHeight: 2048,
+          "https://pixabay.com/photos/engagement-couple-romance-bike-1718244/",
+        imageHeight: 3840,
         webformatURL:
-          "https://pixabay.com/get/55e7d1404b5ab108f5d08460962b337b1238d6e74e50744e722972dc934cc2_640.jpg",
+          "https://pixabay.com/get/57e7d44b4856a814f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_640.jpg",
         type: "photo",
         previewHeight: 99,
-        tags: "rose, roses, flowers",
-        downloads: 106652,
-        user: "DrCarl",
-        favorites: 630,
-        imageSize: 1926650,
+        tags: "engagement, couple, romance",
+        downloads: 127084,
+        user: "3194556",
+        favorites: 1036,
+        imageSize: 4669768,
         previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2014/05/24/04-48-46-179_250x250.jpg",
+        userImageURL: "",
         previewURL:
-          "https://cdn.pixabay.com/photo/2014/06/22/05/49/rose-374318_150.jpg"
+          "https://cdn.pixabay.com/photo/2016/10/06/05/19/engagement-1718244_150.jpg"
       },
       {
         largeImageURL:
-          "https://pixabay.com/get/57e1d74b4c5aaf14f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_1280.jpg",
-        webformatHeight: 426,
-        webformatWidth: 640,
-        likes: 588,
-        imageWidth: 2000,
-        id: 1128683,
-        user_id: 1827243,
-        views: 147086,
-        comments: 85,
-        pageURL:
-          "https://pixabay.com/photos/poppy-gypsophila-elegans-red-color-1128683/",
-        imageHeight: 1333,
-        webformatURL:
-          "https://pixabay.com/get/57e1d74b4c5aaf14f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_640.jpg",
-        type: "photo",
-        previewHeight: 99,
-        tags: "poppy, gypsophila elegans, red color",
-        downloads: 79321,
-        user: "Lee_seonghak",
-        favorites: 619,
-        imageSize: 729608,
-        previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2015/12/30/05-37-23-830_250x250.jpg",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2016/01/08/17/06/poppy-1128683_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/57e4d1414e5bab14f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_1280.jpg",
-        webformatHeight: 415,
-        webformatWidth: 640,
-        likes: 542,
-        imageWidth: 4850,
-        id: 1442497,
-        user_id: 1195798,
-        views: 161043,
-        comments: 98,
-        pageURL:
-          "https://pixabay.com/photos/water-lily-flower-blossom-bloom-1442497/",
-        imageHeight: 3145,
-        webformatURL:
-          "https://pixabay.com/get/57e4d1414e5bab14f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_640.jpg",
-        type: "photo",
-        previewHeight: 97,
-        tags: "water lily, flower, blossom",
-        downloads: 60984,
-        user: "Couleur",
-        favorites: 467,
-        imageSize: 3013358,
-        previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2019/12/27/15-33-37-393_250x250.jpg",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2016/06/07/20/20/water-lily-1442497_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/57e6d1414355ac14f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_1280.jpg",
-        webformatHeight: 439,
-        webformatWidth: 640,
-        likes: 642,
-        imageWidth: 4554,
-        id: 1642970,
-        user_id: 1614541,
-        views: 322428,
-        comments: 59,
-        pageURL:
-          "https://pixabay.com/photos/rose-red-flower-nature-garden-1642970/",
-        imageHeight: 3129,
-        webformatURL:
-          "https://pixabay.com/get/57e6d1414355ac14f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_640.jpg",
-        type: "photo",
-        previewHeight: 102,
-        tags: "rose, red, flower",
-        downloads: 115495,
-        user: "AliceKeyStudio",
-        favorites: 654,
-        imageSize: 3140990,
-        previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2016/12/01/20-09-23-86_250x250.jpg",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2016/09/03/23/18/rose-1642970_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/55e2d54b4353b108f5d08460962b337b1238d6e74e50744e722972dc934cc2_1280.jpg",
-        webformatHeight: 426,
-        webformatWidth: 640,
-        likes: 478,
-        imageWidth: 6000,
-        id: 320891,
-        user_id: 48777,
-        views: 227014,
-        comments: 46,
-        pageURL:
-          "https://pixabay.com/photos/red-rose-rose-rose-bloom-blossom-320891/",
-        imageHeight: 4000,
-        webformatURL:
-          "https://pixabay.com/get/55e2d54b4353b108f5d08460962b337b1238d6e74e50744e722972dc934cc2_640.jpg",
-        type: "photo",
-        previewHeight: 99,
-        tags: "red rose, rose, rose bloom",
-        downloads: 35805,
-        user: "Josch13",
-        favorites: 389,
-        imageSize: 1664735,
-        previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2013/11/05/02-10-23-764_250x250.jpg",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2014/04/10/11/35/red-rose-320891_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/55e4d24b4350a814f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_1280.jpg",
-        webformatHeight: 426,
-        webformatWidth: 640,
-        likes: 465,
-        imageWidth: 5000,
-        id: 3478924,
-        user_id: 2364555,
-        views: 230472,
-        comments: 63,
-        pageURL:
-          "https://pixabay.com/photos/water-lily-red-pond-flower-bloom-3478924/",
-        imageHeight: 3335,
-        webformatURL:
-          "https://pixabay.com/get/55e4d24b4350a814f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_640.jpg",
-        type: "photo",
-        previewHeight: 99,
-        tags: "water lily, red, pond",
-        downloads: 203240,
-        user: "pixel2013",
-        favorites: 456,
-        imageSize: 2960440,
-        previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2019/07/15/18-51-07-612_250x250.jpg",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2018/06/16/15/36/water-lily-3478924_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/55e4dc464d50ae14f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_1280.jpg",
-        webformatHeight: 426,
-        webformatWidth: 640,
-        likes: 464,
-        imageWidth: 6000,
-        id: 3495722,
-        user_id: 1834854,
-        views: 271031,
-        comments: 128,
-        pageURL:
-          "https://pixabay.com/photos/lily-red-blossom-bloom-daylily-3495722/",
-        imageHeight: 4000,
-        webformatURL:
-          "https://pixabay.com/get/55e4dc464d50ae14f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_640.jpg",
-        type: "photo",
-        previewHeight: 99,
-        tags: "lily, red, blossom",
-        downloads: 223974,
-        user: "ulleo",
-        favorites: 404,
-        imageSize: 4728425,
-        previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2019/05/16/18-48-21-135_250x250.jpg",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2018/06/24/23/21/lily-3495722_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/55e4d5444851a814f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_1280.jpg",
+          "https://pixabay.com/get/57e3d4404956af14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_1280.jpg",
         webformatHeight: 360,
         webformatWidth: 640,
-        likes: 356,
-        imageWidth: 4620,
-        id: 3407234,
-        user_id: 17511,
-        views: 106860,
-        comments: 25,
-        pageURL:
-          "https://pixabay.com/photos/rose-red-drops-rain-macro-nature-3407234/",
-        imageHeight: 2599,
-        webformatURL:
-          "https://pixabay.com/get/55e4d5444851a814f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_640.jpg",
-        type: "photo",
-        previewHeight: 84,
-        tags: "rose, red, drops",
-        downloads: 63659,
-        user: "melkhagelslag",
-        favorites: 423,
-        imageSize: 1412970,
-        previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2017/03/05/17-08-40-993_250x250.jpg",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2018/05/16/22/27/rose-3407234_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/57e7d4474252ab14f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_1280.jpg",
-        webformatHeight: 400,
-        webformatWidth: 640,
-        likes: 646,
-        imageWidth: 1920,
-        id: 1714807,
-        user_id: 272447,
-        views: 197589,
-        comments: 84,
-        pageURL:
-          "https://pixabay.com/photos/heart-shape-tree-red-outdoors-1714807/",
-        imageHeight: 1200,
-        webformatURL:
-          "https://pixabay.com/get/57e7d4474252ab14f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_640.jpg",
-        type: "photo",
-        previewHeight: 93,
-        tags: "heart-shape, tree, red",
-        downloads: 76653,
-        user: "skeeze",
-        favorites: 616,
-        imageSize: 1061199,
-        previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2015/02/10/03-58-30-79_250x250.jpg",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2016/10/04/16/33/heart-shape-1714807_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/51e6d646424fad0bffd8992cc42c32791237dcf85254764e732673d0964a_1280.jpg",
-        webformatHeight: 426,
-        webformatWidth: 640,
-        likes: 320,
-        imageWidth: 5315,
-        id: 76358,
-        user_id: 19282,
-        views: 79106,
-        comments: 38,
-        pageURL:
-          "https://pixabay.com/photos/meadow-poppy-poppies-bloom-red-76358/",
-        imageHeight: 3543,
-        webformatURL:
-          "https://pixabay.com/get/51e6d646424fad0bffd8992cc42c32791237dcf85254764e732673d0964a_640.jpg",
-        type: "photo",
-        previewHeight: 99,
-        tags: "meadow, poppy, poppies",
-        downloads: 25145,
-        user: "Fotomanie",
-        favorites: 332,
-        imageSize: 2511002,
-        previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2013/01/27/12-04-08-887_250x250.jpg",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2013/01/27/18/41/meadow-76358_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/50e6d0414d4fad0bffd8992cc42c32791237dcf85254764e732673d0964a_1280.jpg",
-        webformatHeight: 640,
-        webformatWidth: 640,
-        likes: 527,
-        imageWidth: 3660,
-        id: 66527,
-        user_id: 13838,
-        views: 125652,
-        comments: 69,
-        pageURL: "https://pixabay.com/photos/roses-flowers-red-plant-66527/",
-        imageHeight: 3660,
-        webformatURL:
-          "https://pixabay.com/get/50e6d0414d4fad0bffd8992cc42c32791237dcf85254764e732673d0964a_640.jpg",
-        type: "photo",
-        previewHeight: 150,
-        tags: "roses, flowers, red",
-        downloads: 49148,
-        user: "LoboStudioHamburg",
-        favorites: 445,
-        imageSize: 5935387,
-        previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2012/11/18/16-48-54-297_250x250.jpg",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2012/11/19/02/10/roses-66527_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/55e8d5414e50a814f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_1280.jpg",
-        webformatHeight: 425,
-        webformatWidth: 640,
-        likes: 482,
-        imageWidth: 6016,
-        id: 3802424,
-        user_id: 1130890,
-        views: 223862,
-        comments: 124,
-        pageURL:
-          "https://pixabay.com/photos/rose-blossom-bloom-plant-flower-3802424/",
-        imageHeight: 4000,
-        webformatURL:
-          "https://pixabay.com/get/55e8d5414e50a814f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_640.jpg",
-        type: "photo",
-        previewHeight: 99,
-        tags: "rose, blossom, bloom",
-        downloads: 166525,
-        user: "Peggychoucair",
-        favorites: 375,
-        imageSize: 4020477,
-        previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2018/12/28/22-17-08-435_250x250.jpg",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2018/11/08/12/02/rose-3802424_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/5ee2d4444a57b108f5d08460962b337b1238d6e74e50744e722972dc934cc2_1280.jpg",
-        webformatHeight: 423,
-        webformatWidth: 640,
-        likes: 466,
-        imageWidth: 4928,
-        id: 821705,
-        user_id: 509903,
-        views: 203934,
+        likes: 396,
+        imageWidth: 3840,
+        id: 1313343,
+        user_id: 2240009,
+        views: 119700,
         comments: 40,
         pageURL:
-          "https://pixabay.com/photos/roses-red-roses-bouquet-of-roses-821705/",
-        imageHeight: 3264,
+          "https://pixabay.com/photos/bmw-vehicle-ride-bike-journey-1313343/",
+        imageHeight: 2160,
         webformatURL:
-          "https://pixabay.com/get/5ee2d4444a57b108f5d08460962b337b1238d6e74e50744e722972dc934cc2_640.jpg",
+          "https://pixabay.com/get/57e3d4404956af14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_640.jpg",
         type: "photo",
-        previewHeight: 99,
-        tags: "roses, red roses, bouquet of roses",
-        downloads: 44703,
-        user: "congerdesign",
-        favorites: 423,
-        imageSize: 3087555,
+        previewHeight: 84,
+        tags: "bmw, vehicle, ride",
+        downloads: 57287,
+        user: "Monoar",
+        favorites: 426,
+        imageSize: 2161055,
         previewWidth: 150,
         userImageURL:
-          "https://cdn.pixabay.com/user/2019/04/26/13-54-08-507_250x250.jpg",
+          "https://cdn.pixabay.com/user/2016/03/18/05-51-03-682_250x250.jpg",
         previewURL:
-          "https://cdn.pixabay.com/photo/2015/06/25/19/08/roses-821705_150.jpg"
+          "https://cdn.pixabay.com/photo/2016/04/07/06/53/bmw-1313343_150.jpg"
       },
       {
         largeImageURL:
-          "https://pixabay.com/get/54e4d4444951a814f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_1280.jpg",
-        webformatHeight: 480,
+          "https://pixabay.com/get/57e9d5474251b108f5d08460962b337b1238d6e74e50744e722972dd9148c1_1280.jpg",
+        webformatHeight: 426,
         webformatWidth: 640,
-        likes: 521,
-        imageWidth: 3826,
-        id: 2417334,
-        user_id: 165106,
-        views: 240569,
-        comments: 73,
+        likes: 334,
+        imageWidth: 2160,
+        id: 190483,
+        user_id: 55851,
+        views: 90730,
+        comments: 38,
         pageURL:
-          "https://pixabay.com/photos/rose-blossom-bloom-flower-nature-2417334/",
-        imageHeight: 2874,
+          "https://pixabay.com/photos/bike-bicycle-two-wheel-old-bike-190483/",
+        imageHeight: 1440,
         webformatURL:
-          "https://pixabay.com/get/54e4d4444951a814f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_640.jpg",
+          "https://pixabay.com/get/57e9d5474251b108f5d08460962b337b1238d6e74e50744e722972dd9148c1_640.jpg",
+        type: "photo",
+        previewHeight: 99,
+        tags: "bike, bicycle, two",
+        downloads: 20612,
+        user: "danfador",
+        favorites: 364,
+        imageSize: 2093738,
+        previewWidth: 150,
+        userImageURL: "",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2013/10/03/23/19/bike-190483_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/5fe5d540484fad0bffd8992cc42c32791237dcf85254764e732672d29249_1280.jpg",
+        webformatHeight: 426,
+        webformatWidth: 640,
+        likes: 457,
+        imageWidth: 3888,
+        id: 95032,
+        user_id: 12019,
+        views: 162313,
+        comments: 60,
+        pageURL:
+          "https://pixabay.com/photos/utah-mountain-biking-bike-biking-95032/",
+        imageHeight: 2592,
+        webformatURL:
+          "https://pixabay.com/get/5fe5d540484fad0bffd8992cc42c32791237dcf85254764e732672d29249_640.jpg",
+        type: "photo",
+        previewHeight: 99,
+        tags: "utah, mountain biking, bike",
+        downloads: 67159,
+        user: "12019",
+        favorites: 489,
+        imageSize: 2324051,
+        previewWidth: 150,
+        userImageURL: "",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2013/03/19/18/23/utah-95032_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/50e8d6444f53b108f5d08460962b337b1238d6e74e50744e722972dd9148c1_1280.jpg",
+        webformatHeight: 360,
+        webformatWidth: 640,
+        likes: 343,
+        imageWidth: 2126,
+        id: 683751,
+        user_id: 869884,
+        views: 99237,
+        comments: 40,
+        pageURL:
+          "https://pixabay.com/photos/silhouette-bike-fitness-woman-683751/",
+        imageHeight: 1196,
+        webformatURL:
+          "https://pixabay.com/get/50e8d6444f53b108f5d08460962b337b1238d6e74e50744e722972dd9148c1_640.jpg",
+        type: "photo",
+        previewHeight: 84,
+        tags: "silhouette, bike, fitness",
+        downloads: 40552,
+        user: "renategranade0",
+        favorites: 359,
+        imageSize: 140956,
+        previewWidth: 150,
+        userImageURL: "",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2015/03/21/14/34/silhouette-683751_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/55e0d1464f5aac14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_1280.jpg",
+        webformatHeight: 456,
+        webformatWidth: 640,
+        likes: 409,
+        imageWidth: 6997,
+        id: 3045580,
+        user_id: 3656355,
+        views: 90655,
+        comments: 45,
+        pageURL:
+          "https://pixabay.com/photos/bicycle-children-graffiti-art-3045580/",
+        imageHeight: 4987,
+        webformatURL:
+          "https://pixabay.com/get/55e0d1464f5aac14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_640.jpg",
+        type: "photo",
+        previewHeight: 106,
+        tags: "bicycle, children, graffiti",
+        downloads: 33099,
+        user: "Engin_Akyurt",
+        favorites: 394,
+        imageSize: 14375889,
+        previewWidth: 150,
+        userImageURL:
+          "https://cdn.pixabay.com/user/2018/09/20/08-02-23-312_250x250.jpg",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2017/12/28/16/18/bicycle-3045580_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/54e2dc424353aa14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_1280.jpg",
+        webformatHeight: 426,
+        webformatWidth: 640,
+        likes: 260,
+        imageWidth: 6000,
+        id: 2291916,
+        user_id: 661512,
+        views: 98588,
+        comments: 17,
+        pageURL:
+          "https://pixabay.com/photos/gear-bicycle-chain-transmission-2291916/",
+        imageHeight: 4000,
+        webformatURL:
+          "https://pixabay.com/get/54e2dc424353aa14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_640.jpg",
+        type: "photo",
+        previewHeight: 99,
+        tags: "gear, bicycle, chain",
+        downloads: 72506,
+        user: "JarkkoManty",
+        favorites: 258,
+        imageSize: 8386419,
+        previewWidth: 150,
+        userImageURL:
+          "https://cdn.pixabay.com/user/2019/08/01/20-23-01-127_250x250.jpg",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2017/05/07/09/03/gear-2291916_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/57e5d5464a51a514f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_1280.jpg",
+        webformatHeight: 479,
+        webformatWidth: 640,
+        likes: 247,
+        imageWidth: 4000,
+        id: 1505039,
+        user_id: 2849478,
+        views: 50708,
+        comments: 18,
+        pageURL:
+          "https://pixabay.com/photos/bike-wall-phu-xuyen-hanoi-vietnam-1505039/",
+        imageHeight: 2996,
+        webformatURL:
+          "https://pixabay.com/get/57e5d5464a51a514f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_640.jpg",
         type: "photo",
         previewHeight: 112,
-        tags: "rose, blossom, bloom",
-        downloads: 80614,
+        tags: "bike, wall, phu xuyen",
+        downloads: 23814,
+        user: "nguyenhuynhmai",
+        favorites: 253,
+        imageSize: 5013108,
+        previewWidth: 150,
+        userImageURL:
+          "https://cdn.pixabay.com/user/2016/07/01/14-17-57-875_250x250.jpg",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2016/07/08/18/32/bike-1505039_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/51e4d44b4b51b108f5d08460962b337b1238d6e74e50744e722972dd9148c1_1280.jpg",
+        webformatHeight: 426,
+        webformatWidth: 640,
+        likes: 244,
+        imageWidth: 1940,
+        id: 741813,
+        user_id: 824135,
+        views: 55012,
+        comments: 30,
+        pageURL:
+          "https://pixabay.com/photos/sign-bicycle-decoration-bike-741813/",
+        imageHeight: 1293,
+        webformatURL:
+          "https://pixabay.com/get/51e4d44b4b51b108f5d08460962b337b1238d6e74e50744e722972dd9148c1_640.jpg",
+        type: "photo",
+        previewHeight: 99,
+        tags: "sign, bicycle, decoration",
+        downloads: 24290,
+        user: "BriF",
+        favorites: 268,
+        imageSize: 422018,
+        previewWidth: 150,
+        userImageURL:
+          "https://cdn.pixabay.com/user/2015/03/10/13-40-13-674_250x250.jpg",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2015/04/27/11/48/sign-741813_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/55e8d1424d5ab108f5d08460962b337b1238d6e74e50744e722972dd9148c1_1280.jpg",
+        webformatHeight: 167,
+        webformatWidth: 640,
+        likes: 232,
+        imageWidth: 4272,
+        id: 384178,
+        user_id: 322038,
+        views: 64589,
+        comments: 47,
+        pageURL:
+          "https://pixabay.com/photos/biker-motorcycle-dirt-extreme-bike-384178/",
+        imageHeight: 1120,
+        webformatURL:
+          "https://pixabay.com/get/55e8d1424d5ab108f5d08460962b337b1238d6e74e50744e722972dd9148c1_640.jpg",
+        type: "photo",
+        previewHeight: 39,
+        tags: "biker, motorcycle, dirt",
+        downloads: 32147,
+        user: "WebDonut",
+        favorites: 275,
+        imageSize: 702799,
+        previewWidth: 150,
+        userImageURL:
+          "https://cdn.pixabay.com/user/2015/09/25/17-21-20-903_250x250.jpg",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2014/07/04/19/15/biker-384178_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/54e7d4424855a514f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_1280.jpg",
+        webformatHeight: 374,
+        webformatWidth: 640,
+        likes: 448,
+        imageWidth: 3318,
+        id: 2711279,
+        user_id: 127419,
+        views: 175999,
+        comments: 83,
+        pageURL:
+          "https://pixabay.com/photos/woman-girl-bike-sunset-walk-2711279/",
+        imageHeight: 1943,
+        webformatURL:
+          "https://pixabay.com/get/54e7d4424855a514f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_640.jpg",
+        type: "photo",
+        previewHeight: 87,
+        tags: "woman, girl, bike",
+        downloads: 122529,
+        user: "cocoparisienne",
+        favorites: 410,
+        imageSize: 780460,
+        previewWidth: 150,
+        userImageURL:
+          "https://cdn.pixabay.com/user/2019/11/18/14-25-26-732_250x250.jpg",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2017/09/03/17/26/woman-2711279_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/57e9d5454e52a914f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_1280.jpg",
+        webformatHeight: 451,
+        webformatWidth: 640,
+        likes: 177,
+        imageWidth: 5984,
+        id: 1906405,
+        user_id: 3946012,
+        views: 89982,
+        comments: 10,
+        pageURL:
+          "https://pixabay.com/photos/girl-bicycle-bike-cycling-sunset-1906405/",
+        imageHeight: 4224,
+        webformatURL:
+          "https://pixabay.com/get/57e9d5454e52a914f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_640.jpg",
+        type: "photo",
+        previewHeight: 105,
+        tags: "girl, bicycle, bike",
+        downloads: 61271,
+        user: "zhivko",
+        favorites: 233,
+        imageSize: 2969341,
+        previewWidth: 150,
+        userImageURL:
+          "https://cdn.pixabay.com/user/2016/12/07/09-20-37-961_250x250.jpg",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2016/12/14/13/33/girl-1906405_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/57e0dd414a57ab14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_1280.jpg",
+        webformatHeight: 426,
+        webformatWidth: 640,
+        likes: 146,
+        imageWidth: 1800,
+        id: 1082057,
+        user_id: 242387,
+        views: 25084,
+        comments: 2,
+        pageURL:
+          "https://pixabay.com/photos/vintage-bike-flowers-bicycle-retro-1082057/",
+        imageHeight: 1200,
+        webformatURL:
+          "https://pixabay.com/get/57e0dd414a57ab14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_640.jpg",
+        type: "photo",
+        previewHeight: 99,
+        tags: "vintage, bike, flowers",
+        downloads: 7824,
+        user: "Free-Photos",
+        favorites: 220,
+        imageSize: 605710,
+        previewWidth: 150,
+        userImageURL:
+          "https://cdn.pixabay.com/user/2014/05/07/00-10-34-2_250x250.jpg",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2015/12/08/00/48/vintage-1082057_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/55e0d3454b54ab14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_1280.jpg",
+        webformatHeight: 359,
+        webformatWidth: 640,
+        likes: 145,
+        imageWidth: 5684,
+        id: 3066167,
+        user_id: 165106,
+        views: 37944,
+        comments: 49,
+        pageURL:
+          "https://pixabay.com/photos/snow-fatbikes-mountain-bikes-mtb-3066167/",
+        imageHeight: 3194,
+        webformatURL:
+          "https://pixabay.com/get/55e0d3454b54ab14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_640.jpg",
+        type: "photo",
+        previewHeight: 84,
+        tags: "snow, fatbikes, mountain bikes",
+        downloads: 20952,
         user: "suju",
-        favorites: 548,
-        imageSize: 1692505,
+        favorites: 126,
+        imageSize: 5200534,
         previewWidth: 150,
         userImageURL:
           "https://cdn.pixabay.com/user/2019/09/21/15-48-10-210_250x250.jpeg",
         previewURL:
-          "https://cdn.pixabay.com/photo/2017/06/18/21/37/rose-2417334_150.jpg"
+          "https://cdn.pixabay.com/photo/2018/01/06/23/25/snow-3066167_150.jpg"
       },
       {
         largeImageURL:
-          "https://pixabay.com/get/57e3d0464e55af14f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_1280.jpg",
+          "https://pixabay.com/get/57e8d3444a56aa14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_1280.jpg",
+        webformatHeight: 426,
+        webformatWidth: 640,
+        likes: 156,
+        imageWidth: 5315,
+        id: 1867046,
+        user_id: 2286921,
+        views: 27893,
+        comments: 11,
+        pageURL:
+          "https://pixabay.com/photos/bicycle-bike-cyclist-dawn-dusk-1867046/",
+        imageHeight: 3543,
+        webformatURL:
+          "https://pixabay.com/get/57e8d3444a56aa14f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_640.jpg",
+        type: "photo",
+        previewHeight: 99,
+        tags: "bicycle, bike, cyclist",
+        downloads: 13562,
+        user: "Pexels",
+        favorites: 205,
+        imageSize: 2162993,
+        previewWidth: 150,
+        userImageURL:
+          "https://cdn.pixabay.com/user/2016/03/26/22-06-36-459_250x250.jpg",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2016/11/29/03/25/bicycle-1867046_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/52e0d2424254b108f5d08460962b337b1238d6e74e50744e722972dd9148c1_1280.jpg",
+        webformatHeight: 426,
+        webformatWidth: 640,
+        likes: 221,
+        imageWidth: 5616,
+        id: 407186,
+        user_id: 364019,
+        views: 83268,
+        comments: 25,
+        pageURL:
+          "https://pixabay.com/photos/motorbike-garage-repairs-hobby-407186/",
+        imageHeight: 3744,
+        webformatURL:
+          "https://pixabay.com/get/52e0d2424254b108f5d08460962b337b1238d6e74e50744e722972dd9148c1_640.jpg",
+        type: "photo",
+        previewHeight: 99,
+        tags: "motorbike, garage, repairs",
+        downloads: 28904,
+        user: "SplitShire",
+        favorites: 202,
+        imageSize: 7362369,
+        previewWidth: 150,
+        userImageURL:
+          "https://cdn.pixabay.com/user/2014/08/01/01-11-54-28_250x250.jpg",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2014/07/31/23/37/motorbike-407186_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/5ee6d241485bb108f5d08460962b337b1238d6e74e50744e722972dd9148c1_1280.jpg",
+        webformatHeight: 480,
+        webformatWidth: 640,
+        likes: 108,
+        imageWidth: 2560,
+        id: 867229,
+        user_id: 242387,
+        views: 31531,
+        comments: 19,
+        pageURL:
+          "https://pixabay.com/photos/bike-cycle-bicycle-sport-cycling-867229/",
+        imageHeight: 1920,
+        webformatURL:
+          "https://pixabay.com/get/5ee6d241485bb108f5d08460962b337b1238d6e74e50744e722972dd9148c1_640.jpg",
+        type: "photo",
+        previewHeight: 112,
+        tags: "bike, cycle, bicycle",
+        downloads: 15887,
+        user: "Free-Photos",
+        favorites: 252,
+        imageSize: 841744,
+        previewWidth: 150,
+        userImageURL:
+          "https://cdn.pixabay.com/user/2014/05/07/00-10-34-2_250x250.jpg",
+        previewURL:
+          "https://cdn.pixabay.com/photo/2015/07/30/11/04/bike-867229_150.jpg"
+      },
+      {
+        largeImageURL:
+          "https://pixabay.com/get/55e3d3464a57b108f5d08460962b337b1238d6e74e50744e722972dd9148c1_1280.jpg",
         webformatHeight: 425,
         webformatWidth: 640,
-        likes: 499,
-        imageWidth: 4288,
-        id: 1355473,
-        user_id: 2312503,
-        views: 92245,
-        comments: 57,
+        likes: 137,
+        imageWidth: 4912,
+        id: 336505,
+        user_id: 242387,
+        views: 27745,
+        comments: 16,
         pageURL:
-          "https://pixabay.com/photos/bride-marry-wedding-red-hair-1355473/",
-        imageHeight: 2848,
+          "https://pixabay.com/photos/shed-bicycle-bike-old-wooden-shack-336505/",
+        imageHeight: 3264,
         webformatURL:
-          "https://pixabay.com/get/57e3d0464e55af14f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_640.jpg",
+          "https://pixabay.com/get/55e3d3464a57b108f5d08460962b337b1238d6e74e50744e722972dd9148c1_640.jpg",
         type: "photo",
         previewHeight: 99,
-        tags: "bride, marry, wedding",
-        downloads: 39435,
-        user: "melancholiaphotography",
-        favorites: 501,
-        imageSize: 2782579,
+        tags: "shed, bicycle, bike",
+        downloads: 11913,
+        user: "Free-Photos",
+        favorites: 206,
+        imageSize: 5918588,
         previewWidth: 150,
         userImageURL:
-          "https://cdn.pixabay.com/user/2016/04/14/23-29-05-812_250x250.jpg",
+          "https://cdn.pixabay.com/user/2014/05/07/00-10-34-2_250x250.jpg",
         previewURL:
-          "https://cdn.pixabay.com/photo/2016/04/26/22/31/bride-1355473_150.jpg"
+          "https://cdn.pixabay.com/photo/2014/05/02/23/53/shed-336505_150.jpg"
       },
       {
         largeImageURL:
-          "https://pixabay.com/get/52e6d64a4856ad14f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_1280.jpg",
-        webformatHeight: 426,
+          "https://pixabay.com/get/57e8d64a4a52a914f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_1280.jpg",
+        webformatHeight: 400,
         webformatWidth: 640,
-        likes: 95,
-        imageWidth: 6124,
-        id: 4639241,
-        user_id: 14172449,
-        views: 35367,
-        comments: 27,
+        likes: 109,
+        imageWidth: 1920,
+        id: 1839005,
+        user_id: 2286921,
+        views: 30853,
+        comments: 4,
         pageURL:
-          "https://pixabay.com/photos/macro-flower-rose-throat-nice-4639241/",
-        imageHeight: 4082,
+          "https://pixabay.com/photos/bicycle-bike-bokeh-lights-macro-1839005/",
+        imageHeight: 1200,
         webformatURL:
-          "https://pixabay.com/get/52e6d64a4856ad14f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_640.jpg",
+          "https://pixabay.com/get/57e8d64a4a52a914f6da8c7dda79347a1038d9ed514c704c72287ddd9e4bc05c_640.jpg",
         type: "photo",
-        previewHeight: 99,
-        tags: "macro, flower, rose",
-        downloads: 23344,
-        user: "vuxoan",
-        favorites: 84,
-        imageSize: 3411645,
+        previewHeight: 93,
+        tags: "bicycle, bike, bokeh",
+        downloads: 13523,
+        user: "Pexels",
+        favorites: 141,
+        imageSize: 927893,
         previewWidth: 150,
         userImageURL:
-          "https://cdn.pixabay.com/user/2019/11/20/15-30-47-710_250x250.jpg",
+          "https://cdn.pixabay.com/user/2016/03/26/22-06-36-459_250x250.jpg",
         previewURL:
-          "https://cdn.pixabay.com/photo/2019/11/20/06/15/macro-4639241_150.jpg"
+          "https://cdn.pixabay.com/photo/2016/11/19/12/24/bicycle-1839005_150.jpg"
       },
       {
         largeImageURL:
-          "https://pixabay.com/get/55e0d3424e5aaa14f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_1280.jpg",
-        webformatHeight: 426,
+          "https://pixabay.com/get/51e1d6454f5ab108f5d08460962b337b1238d6e74e50744e722972dd9148c1_1280.jpg",
+        webformatHeight: 425,
         webformatWidth: 640,
-        likes: 243,
-        imageWidth: 5056,
-        id: 3061486,
-        user_id: 2218222,
-        views: 93293,
-        comments: 10,
+        likes: 105,
+        imageWidth: 4256,
+        id: 713658,
+        user_id: 272447,
+        views: 40097,
+        comments: 14,
         pageURL:
-          "https://pixabay.com/photos/roses-romantic-valentine-in-love-3061486/",
-        imageHeight: 3366,
+          "https://pixabay.com/photos/workout-racing-bike-bicycle-bike-713658/",
+        imageHeight: 2832,
         webformatURL:
-          "https://pixabay.com/get/55e0d3424e5aaa14f6da8c7dda79347a1038d9ed514c704c72287ddd9f49c45f_640.jpg",
+          "https://pixabay.com/get/51e1d6454f5ab108f5d08460962b337b1238d6e74e50744e722972dd9148c1_640.jpg",
         type: "photo",
         previewHeight: 99,
-        tags: "roses, romantic, valentine",
-        downloads: 38557,
-        user: "Nietjuh",
-        favorites: 285,
-        imageSize: 2805183,
+        tags: "workout, racing bike, bicycle",
+        downloads: 19528,
+        user: "skeeze",
+        favorites: 145,
+        imageSize: 401267,
         previewWidth: 150,
         userImageURL:
-          "https://cdn.pixabay.com/user/2019/04/09/22-42-24-323_250x250.jpeg",
+          "https://cdn.pixabay.com/user/2015/02/10/03-58-30-79_250x250.jpg",
         previewURL:
-          "https://cdn.pixabay.com/photo/2018/01/04/19/43/roses-3061486_150.jpg"
-      },
-      {
-        largeImageURL:
-          "https://pixabay.com/get/5ee4d4454d54b108f5d08460962b337b1238d6e74e50744e722972dc934cc2_1280.jpg",
-        webformatHeight: 426,
-        webformatWidth: 640,
-        likes: 226,
-        imageWidth: 5184,
-        id: 841676,
-        user_id: 905824,
-        views: 37956,
-        comments: 24,
-        pageURL:
-          "https://pixabay.com/photos/protea-bloom-flower-color-red-841676/",
-        imageHeight: 3456,
-        webformatURL:
-          "https://pixabay.com/get/5ee4d4454d54b108f5d08460962b337b1238d6e74e50744e722972dc934cc2_640.jpg",
-        type: "photo",
-        previewHeight: 99,
-        tags: "protea, bloom, flower",
-        downloads: 20178,
-        user: "corgaasbeek",
-        favorites: 266,
-        imageSize: 6865411,
-        previewWidth: 150,
-        userImageURL:
-          "https://cdn.pixabay.com/user/2016/09/11/09-48-46-940_250x250.jpg",
-        previewURL:
-          "https://cdn.pixabay.com/photo/2015/07/12/09/44/gerbera-daisy-841676_150.jpg"
+          "https://cdn.pixabay.com/photo/2015/04/08/23/53/workout-713658_150.jpg"
       }
     ],
-    total: 16529
+    total: 4260
   }
 ];
 
@@ -661,7 +659,7 @@ export class HomeScreen extends Component {
           <View style={styles.modal}>
             <Image
               style={styles.modalImage}
-              resizeMode="cover"
+              resizeMode="contain"
               onLoadEnd={() => this.setState({ hightResImgLoad: true })}
               source={{
                 uri: this.modaldata.largeImageURL
@@ -679,6 +677,25 @@ export class HomeScreen extends Component {
             >
               <Text>X</Text>
             </TouchableHighlight>
+
+            <View style={styles.btnWrapper}>
+              <TouchableHighlight
+                style={styles.childbtn}
+                onPress={() => {
+                  this.setModalVisible(!this.state.modalVisible);
+                }}
+              >
+                <Text>Downlaod</Text>
+              </TouchableHighlight>
+              <TouchableHighlight
+                style={styles.childbtn}
+                onPress={() => {
+                  this.setModalVisible(!this.state.modalVisible);
+                }}
+              >
+                <Text>Set Wallpaper</Text>
+              </TouchableHighlight>
+            </View>
           </View>
         )}
       </SafeAreaView>
@@ -766,6 +783,28 @@ const styles = StyleSheet.create({
     right: 0,
     bottom: 0,
     zIndex: 0,
-    backgroundColor: "lightgray"
+    backgroundColor: "black"
+  },
+  btnWrapper: {
+    position: "absolute",
+    bottom: 0,
+    left: 0,
+    right: 0,
+    zIndex: 3,
+    height: 56,
+    display: "flex",
+    flexDirection: "row"
+  },
+  childbtn: {
+    flex: 1,
+    backgroundColor: "white",
+    fontWeight: "bold",
+    opacity: 0.9,
+    margin: 8,
+    display: "flex",
+    justifyContent: "center",
+    alignmentItem: "center",
+    textAlign: "center",
+    borderRadius: 4
   }
 });
